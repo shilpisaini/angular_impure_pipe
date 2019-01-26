@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'angular-impure-pipes';
+  nums =[1, 2, 3, 4];
+ 
+  addNumber(number: number) {    
+    this.nums.push(number);
+  }
+
 }
